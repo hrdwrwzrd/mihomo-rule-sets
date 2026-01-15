@@ -2,6 +2,10 @@ payload:
   # Unreal Engine games
   - PROCESS-NAME-REGEX,(?i).*Win64-Shipping.*
 
+  # League of legends
+  - PROCESS-NAME,LeagueClient.exe
+  - PROCESS-NAME,RiotClientServices.exe
+  
   # Aimbeast
   - PROCESS-NAME-REGEX,Aimbeast.* 
 
@@ -162,3 +166,4 @@ payload:
   # FaceIT website
   - DOMAIN-SUFFIX,faceit.com
   - DOMAIN-SUFFIX,faceit-cdn.net
+
