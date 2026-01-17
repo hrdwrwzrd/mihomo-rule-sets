@@ -1,6 +1,6 @@
 payload:
   # Unreal Engine games
-  #- PROCESS-NAME-REGEX,(?i).*Win64-Shipping.*
+  - PROCESS-NAME-REGEX,(?i).*Win64-Shipping.*
 
   # League of legends
   - PROCESS-NAME,LeagueClient.exe
@@ -166,6 +166,7 @@ payload:
   # FaceIT website
   - DOMAIN-SUFFIX,faceit.com
   - DOMAIN-SUFFIX,faceit-cdn.net
+
 
 
 
